@@ -12,11 +12,8 @@ The dataset contains 2 stacks of ssTEM images of the *Drosophila melanogaster* t
 ### Summary
 - **Number of stacks**: 2 (1 training, 1 test)  
 - **Sections per stack**: 20 (40 total)  
-- **Image size**: 1024 × 1024 pixels  
-- **Stacks**:  
-  - `stack1/` — labeled stack (training)  
-  - `stack2/` — raw stack (test)  
-- **Format**: 8-bit grayscale (raw images)  
+- **Image size**: 1024 × 1024 pixels    
+- **Image format**: 8-bit grayscale TIFF  
 - **Labels**: For each class, binary images; for multi-class segmentation, 8-bit images with pixel values encoding structure type (see table below).
 
 ---
