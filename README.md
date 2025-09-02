@@ -22,10 +22,8 @@ The dataset contains 2 stacks of ssTEM images of the *Drosophila melanogaster* t
 
 - **Title**: Segmented anisotropic ssTEM dataset of neural tissue  
 - **Authors**: Stephan Gerhard, Jan Funke, Julien Martel, Albert Cardona, Richard Fetter
-- **Source**: [Original GitHub repository](https://github.com/unidesigner/groundtruth-drosophila-vnc),  
-  [figshare (DOI: 10.6084/m9.figshare.856713)](https://doi.org/10.6084/m9.figshare.856713)  
-- **Reference**: Gerhard S. et al. *Segmented anisotropic ssTEM dataset of neural tissue.* figshare (2013).  
-  [DOI: 10.6084/m9.figshare.856713](https://doi.org/10.6084/m9.figshare.856713)  
+- **Source**: [Original GitHub repository](https://github.com/unidesigner/groundtruth-drosophila-vnc), [figshare (DOI: 10.6084/m9.figshare.856713)](https://doi.org/10.6084/m9.figshare.856713)  
+- **Reference**: Gerhard S. et al. *Segmented anisotropic ssTEM dataset of neural tissue.* figshare (2013). [DOI: 10.6084/m9.figshare.856713](https://doi.org/10.6084/m9.figshare.856713)  
 - **License**: [Creative Commons Attribution 3.0 (CC BY 3.0)](https://creativecommons.org/licenses/by/3.0/)
 
 If you use this dataset in your research, please follow the licensing requirements and properly attribute the original authors.
