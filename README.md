@@ -2,8 +2,7 @@
 
 ## Overview
 
-This DeepTrackAI repository provides a copy of the **Segmented anisotropic ssTEM dataset of neural tissue**,  
-a dataset of serial section Transmission Electron Microscopy (ssTEM) prepared for training and evaluating image segmentation methods.
+This DeepTrackAI repository provides a copy of the **Segmented anisotropic ssTEM dataset of neural tissue**, a dataset of serial section Transmission Electron Microscopy (ssTEM) prepared for training and evaluating image segmentation methods.
 
 The content mirrors the public dataset by Gerhard et al., available from both the [Original GitHub repository](https://github.com/unidesigner/groundtruth-drosophila-vnc) and [figshare (DOI: 10.6084/m9.figshare.856713)](https://doi.org/10.6084/m9.figshare.856713).
 
@@ -22,8 +21,12 @@ The dataset contains 2 stacks of ssTEM images of the *Drosophila melanogaster* t
 
 - **Title**: Segmented anisotropic ssTEM dataset of neural tissue  
 - **Authors**: Stephan Gerhard, Jan Funke, Julien Martel, Albert Cardona, Richard Fetter
-- **Source**: [Original GitHub repository](https://github.com/unidesigner/groundtruth-drosophila-vnc), [figshare (DOI: 10.6084/m9.figshare.856713)](https://doi.org/10.6084/m9.figshare.856713)  
-- **License**: [Creative Commons Attribution 3.0 (CC BY 3.0)](https://creativecommons.org/licenses/by/3.0/)
+- **Sources**:
+    - [Original GitHub repository](https://github.com/unidesigner/groundtruth-drosophila-vnc)
+    - [figshare (DOI: 10.6084/m9.figshare.856713)](https://doi.org/10.6084/m9.figshare.856713)  
+- **Licenses**:
+    - Original GitHub repository: [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)](https://creativecommons.org/licenses/by-nc-sa/3.0/)
+    - figshare: [Creative Commons Attribution 4.0 International (CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 If you use this dataset in your research, please follow the licensing requirements and properly attribute the original authors.
 
@@ -61,6 +64,7 @@ If you use this dataset in your research, please follow the licensing requiremen
         └── ... 
 
 ```
+
 Each filename is a sequential numerical identifier, consistent across raw and segmentation folders.
 In the `labels/` directory, each pixel is assigned one of the following values:
 
@@ -90,10 +94,10 @@ cd tissue_images_dataset
 
 ## Attribution
 
-This replication dataset is based on the original Segmented anisotropic ssTEM dataset of neural tissue dataset. When using this replication, please cite the original dataset.
+If you use this dataset, please cite the Segmented anisotropic ssTEM dataset of neural tissue.
 
 ### Cite the dataset:
-Gerhard S, Funke J, Martel J, Cardona A, Fetter R. *Segmented anisotropic ssTEM dataset of neural tissue.* figshare. DOI: [10.6084/m9.figshare.856713](https://doi.org/10.6084/m9.figshare.856713)
+Gerhard S, Funke J, Martel J, Cardona A, Fetter R. *Segmented anisotropic ssTEM dataset of neural tissue.* figshare. Dataset (2013). [DOI: 10.6084/m9.figshare.856713](https://doi.org/10.6084/m9.figshare.856713)
 
 ```bibtex
 @misc{gerhard2013sstem,
@@ -109,4 +113,8 @@ Gerhard S, Funke J, Martel J, Cardona A, Fetter R. *Segmented anisotropic ssTEM 
 
 ## License
 
-This replication dataset is shared under the **Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported** License, following the original licensing terms.
+**Note**: The original dataset is distributed under two different licenses depending on the source:  
+- [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) via the GitHub repository  
+- [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) via figshare  
+
+This replication dataset is shared under the more restrictive license, the [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) License](https://creativecommons.org/licenses/by-nc-sa/3.0/), consistent with the original GitHub repository.  
