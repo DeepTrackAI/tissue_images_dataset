@@ -33,20 +33,35 @@ If you use this dataset in your research, please follow the licensing requiremen
 
 ```bash
 /tissue_images_dataset
-├── stack1/                     # Ground-truth stack (training)
-│   ├── raw/                    # Raw 8-bit grayscale ssTEM images
-│   ├── membranes/              # Binary membrane segmentations 
-│   ├── mitochondria/           # Binary mitochondria segmentations
-│   ├── synapses/               # Binary synapse segmentations
-│   └── labels/                 # Combined / multi-class labels
+├── stack1/                     # Training stack 
+│   ├── raw/                    # Raw ssTEM images
+│   │   ├── 00.png  
+│   │   ├── 01.png  
+│   │   └── ... 
+│   ├── membranes/              # Binary segmentation masks: membranes 
+│   │   ├── 00.png  
+│   │   ├── 01.png  
+│   │   └── ... 
+│   ├── mitochondria/           # Binary segmentation masks: mitochondria 
+│   │   ├── 00.png  
+│   │   ├── 01.png  
+│   │   └── ... 
+│   ├── synapses/               # Binary segmentation masks: synapses 
+│   │   ├── 00.png  
+│   │   ├── 01.png  
+│   │   └── ... 
+│   └── labels/                 # Multi-class segmentation masks 
+│       ├── labels00000000.png  
+│       ├── labels00000001.png  
+│       └── ... 
 └── stack2/                     # Test stack 
-    └── raw/                    # Raw 8-bit grayscale ssTEM images
+    └── raw/                    # Raw ssTEM images
+        ├── 00.png  
+        ├── 01.png  
+        └── ... 
+
 ```
-
----
-
-## Label Encoding
-
+Each filename is a sequential numerical identifier, consistent across raw and segmentation folders.
 In the `labels/` directory, each pixel is assigned one of the following values:
 
 | Value | Structure                          |
@@ -56,7 +71,7 @@ In the `labels/` directory, each pixel is assigned one of the following values:
 | 64    | Membrane (90°)                     |
 | 96    | Membrane (135°)                    |
 | 128   | Membrane junction                  |
-| 159   | Glia / Extracellular                |
+| 159   | Glia / Extracellular               |
 | 191   | Mitochondria                       |
 | 223   | Synapse                            |
 | 255   | Intracellular                      |
